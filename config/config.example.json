@@ -55,5 +55,6 @@
       {"name": "startOpenvpn", "command": "systemctl openvpn start", "enable": true},
       {"name": "stopOpenvpn", "command": "systemctl openvpn stop", "enable": true}
     ]
-  }
+  ,
+  "language": "en"}
 }
