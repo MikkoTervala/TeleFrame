@@ -109,7 +109,7 @@ The following properties can be configured:
 | `confirmReboot`	| {boolean} | Defines if to show a confirm message before rebooting the system `true` or `false`	|  |
 | `keys`	| {object} | Defines an object with 4 strings specifying the keyboard shortcuts for play, next, previous and pause. Set to null for no controls	|  |
 | `voiceReply`	| {object} | Defines an object with the config for sending voicemessages with TeleFrame, see [info](#voice-replies-using-teleframe) below	|  |
-| `touchBar`	| {object} | Defines an object with the config for using a touch bar for executing commands instead of the default touch gestures, see [info](#using-the-touch-bar) below	|  |
+| `touchBar`	| {object} | Defines an object with the config for using a touch bar for executing commands instead of the default touch gestures, see [info](#using-the-touch-bar) below. Set to null to disable.	|  |
 | `language`	| {string} | Defines the language to use.  See `config.example.js` 'Language configuration' for details	|  |
 | `adminAction` | {object} | Defines an object with the config for sending Admin-Commands to the TeleFrame, see [info](#sending-admin-commands-to-the-teleframe) below	|  |
 
