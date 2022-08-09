@@ -1,36 +1,36 @@
 var i18n = {
   // Message that is shown when the bot recieved a new image.
-  newPhotoMessage: "New image from",
+  newPhotoMessage: "Uusi kuva lähettäjältä",
   // Message that is shown when the bot recieved a new video.
-  newVideoMessage: "New video from",
+  newVideoMessage: "Uusi video lähettäjältä",
   // Message that is shown when the deleteImage icon was touched.
-  deleteMessage: "Really remove?",
+  deleteMessage: "Poista varmasti?",
   // Text for the delete message confirm button.
-  deleteConfirmText: "Remove",
+  deleteConfirmText: "Poista",
   // Text for the delete message cancel button
-  deleteCancelText: "Cancel",
+  deleteCancelText: "Peruuta",
   // Message that is shown when the shutdown icon was touched
-  shutdownMessage: "Really shutdown?",
+  shutdownMessage: "Sammuta varmasti?",
   // Text for the shutdown message confirm button
-  shutdownConfirmText: "Shutdown",
+  shutdownConfirmText: "Sammuta",
   // Text for the shutdown message cancel button.
-  shutdownCancelText: "Cancel",
+  shutdownCancelText: "Peruuta",
   // Message that is shown when the reboot icon was touched.
-  rebootMessage: "Really reboot?",
+  rebootMessage: "Käynnistä uudelleen varmasti?",
   // Text for the shutdown message confirm button.
-  rebootConfirmText: "Reboot",
+  rebootConfirmText: "Käynnistä uudelleen",
   // Text for the shutdown message cancel button.
-  rebootCancelText: "Cancel",
+  rebootCancelText: "Peruuta",
   // The title of the recording dialog displayed on the frame during record
-  recordingMessageTitle: "Voice Message",
+  recordingMessageTitle: "Ääniviesti",
   // The message of the recording dialog displayed on the frame during record before chat name
-  recordingPreMessage: "Recording for",
+  recordingPreMessage: "Ääniviestiä henkilölle ",
   // The message of the recording dialog displayed on the frame during record after char name
-  recordingPostMessage: "in progress...",
+  recordingPostMessage: "nauhoitetaan...",
   // The message of the recording dialog displayed on the frame when recording has finished
-  recordingDone: "Voice message sent sucessfully!",
+  recordingDone: "Ääniviesti lähetetty onnistuneesti!",
   // The error message of the recording dialog displayed when recording has failed
-  recordingError: "Voice message has failed!",
+  recordingError: "Ääniviestin lähetys epäonnistui!",
 };
 
 /*************** DO NOT EDIT THE LINE BELOW ***************/
