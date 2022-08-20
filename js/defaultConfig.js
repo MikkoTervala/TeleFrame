@@ -59,6 +59,8 @@ var defaultConfig = {
   // When set to true, TeleFrame will show the name of the sender when the image is shown
   showSender: true,
 
+  showSenderLastName: true,
+
   // When set to true, TeleFrame will show the caption of the image when the image is shown.
   showCaption: true,
 

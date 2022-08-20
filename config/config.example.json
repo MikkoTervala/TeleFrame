@@ -13,6 +13,7 @@
   "imageCount": 30,
   "autoDeleteImages": true,
   "showSender": true,
+  "showSenderLastName": true,
   "showCaption": true,
   "senderAndCaptionDuration": 50,
   "useFullscreenForCaptionAndSender": true,

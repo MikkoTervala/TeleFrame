@@ -109,15 +109,19 @@ var Bot = class {
               dest: config.imageFolder + "/" + moment().format("x") + fileExtension
             })
             .then(({ filename, image }) => {
+              var senderName = ctx.message.from.first_name
+              if (config.showSenderLastName || (ctx.message.from.last_name != 'undefined')) {
+                senderName = ctx.message.from.first_name + ctx.message.from.last_name
+              }
               var chatName = ''
               if (ctx.message.chat.type == 'group') {
                 chatName = ctx.message.chat.title;
               } else if (ctx.message.chat.type == 'private') {
-                chatName = ctx.message.from.first_name;
+                chatName = senderName;
               }
               this.newImage(
                 filename,
-                ctx.message.from.first_name,
+                senderName,
                 ctx.message.caption,
                 ctx.message.chat.id,
                 chatName,
