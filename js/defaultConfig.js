@@ -154,6 +154,8 @@ var defaultConfig = {
     maxRecordTime: 60*1000,
   },
 
+  longPressRecordVoiceReply: false,
+
   // Defines an object with the config for sending Admin-Commands to the TeleFrame
   adminAction: {
 	//Global Switch to enable the Admin-Actions

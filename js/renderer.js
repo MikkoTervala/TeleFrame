@@ -70,7 +70,7 @@ if (config.touchBar) {
     } else if (tapPos / containerWidth > 0.8) {
       nextImage()
     } else {
-      if (longpress) {
+      if (longpress && config.longPressRecordVoiceReply) {
         ipcRenderer.send("record", currentImageForVoiceReply['chatId'], currentImageForVoiceReply['messageId']);
       } else {
         if (isPaused) {

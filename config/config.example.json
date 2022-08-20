@@ -46,6 +46,7 @@
     "key": "a",
     "maxRecordTime": 60000
   },
+  "longPressRecordVoiceReply": false,
   "adminAction": {
     "allowAdminAction": true,
 	  "actions": [
