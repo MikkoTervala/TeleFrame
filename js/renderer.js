@@ -65,17 +65,17 @@ if (config.touchBar) {
     longpress = (endTime - startTime > 500) ? true : false;
     tapPos = event.originalEvent.changedTouches[0].pageX
     containerWidth = $("body").width()
-    if (tapPos / containerWidth < 0.2) {
+    if (tapPos / containerWidth < (config.enableTouchScreenPauseButton ? 0.2 : 0.5)) {
       previousImage()
-    } else if (tapPos / containerWidth > 0.8) {
+    } else if (tapPos / containerWidth > (config.enableTouchScreenPauseButton ? 0.8 : 0.5)) {
       nextImage()
     } else {
       if (longpress && config.longPressRecordVoiceReply) {
         ipcRenderer.send("record", currentImageForVoiceReply['chatId'], currentImageForVoiceReply['messageId']);
       } else {
-        if (isPaused) {
+        if (isPaused && config.enableTouchScreenPauseButton) {
           play()
-        } else {
+        } else if (config.enableTouchScreenPauseButton){
           pause()
         }
       }
