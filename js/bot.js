@@ -111,7 +111,7 @@ var Bot = class {
                       + moment().format("YYYY-MM-DDTHH-mm-ss")
                       + "_" 
                       + ctx.message.from.first_name 
-                      + (ctx.message.from.last_name !== undefined ? ("_" + (ctx.message.from.last_name !== undefined)) : "")
+                      + (ctx.message.from.last_name !== undefined ? ("_" + ctx.message.from.last_name) : "")
                       + fileExtension)
             })
             .then(({ filename, image }) => {
