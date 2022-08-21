@@ -106,7 +106,13 @@ var Bot = class {
           download
             .image({
               url: link,
-              dest: config.imageFolder + "/" + moment().format("x") + fileExtension
+              dest: (config.imageFolder 
+                      + "/" 
+                      + moment().format("YYYY-MM-DDTHH-mm-ss")
+                      + "_" 
+                      + ctx.message.from.first_name 
+                      + (ctx.message.from.last_name !== undefined ? ("_" + (ctx.message.from.last_name !== undefined)) : "")
+                      + fileExtension)
             })
             .then(({ filename, image }) => {
               var senderName = ctx.message.from.first_name
