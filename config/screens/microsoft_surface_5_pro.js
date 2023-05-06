@@ -10,6 +10,7 @@ var screen = {
     hasTouch: true,
     hasBacklightCtl: true,
     hasBacklightDimming: false,
+    cmdInit: "",
     cmdBacklightOff: "sudo brightnessctl set 0%",
     cmdBacklightOn:  "sudo brightnessctl set 50%",
 };
