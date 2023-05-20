@@ -11,8 +11,10 @@ var screen = {
     hasBacklightCtl: true,
     hasBacklightDimming: false,
     cmdInit: "",
-    cmdBacklightOff: "sudo brightnessctl set 0%",
-    cmdBacklightOn:  "sudo brightnessctl set 50%",
+    // cmdBacklightOff: "sudo brightnessctl set 0%",
+    // cmdBacklightOn:  "sudo brightnessctl set 50%",
+    cmdBacklightOff: "touch /tmp/display_off",
+    cmdBacklightOn:  "rm /tmp/display_off",
 };
 
 /*************** DO NOT EDIT THE LINE BELOW ***************/
