@@ -540,8 +540,8 @@ $.fn.createCaptionSender = function(image) {
     $caption.html(image.caption);
     $([$sender, $caption]).each(function() {
       $(this).css({
-        backgroundColor: backgroundColor,
-        color: fontColor
+        backgroundColor: "d9d9d9",
+        color: "000000"
       });
     });
 

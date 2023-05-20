@@ -44,8 +44,8 @@ h1 {
 .sender {
   position: absolute;
   padding: 10 20;
-  font-family: "Bowlby", "NotoColorEmoji";
-  font-size: xx-large;
+  font-family: "Roboto-Bold", "NotoColorEmoji";
+  font-size: xxx-large;
 }
 
 .caption {
@@ -55,7 +55,7 @@ h1 {
   height: auto;
   padding: 10 20;
   font-family: "Roboto-Bold", "NotoColorEmoji";
-  font-size: xx-large;
+  font-size: xxx-large;
 }
 
 .image {
